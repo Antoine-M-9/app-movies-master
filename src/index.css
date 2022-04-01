@@ -1,0 +1,26 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+:root {
+  --lightGreen: #1BCBBA;
+  --darkGreen: #0F4847;
+  --darkWhite: #e0e2e5;
+
+  --white: #f8f8f8;
+  --black: #202020;
+
+  --fontPrincipal: 'Source Sans Pro';
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fontPrincipal);
+  color: var(--darkWhite);
+  background: linear-gradient(145deg, rgba(14, 17, 27, 1) 0%, rgba(14, 33, 36, 1) 61%, rgba(17, 72, 72, 1) 100%);
+  height: 100vh;
+}
